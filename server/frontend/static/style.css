@@ -13,6 +13,22 @@ img{
   margin-bottom: 1%;
 }
 
+.card .card-img-top {
+  width:200px;           /* Full card width */
+  height: 200px;         /* Fixed height to maintain uniformity */
+  object-fit: contain;     /* Crops if needed but keeps the aspect ratio */
+  margin-top: 20px;      /* Adds space above */
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically if needed */
+  text-align: center;    /* Centers text for titles and other details */
+}
+
+
 .row{
   display: flex;  
   flex: 1;
@@ -124,3 +140,4 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
